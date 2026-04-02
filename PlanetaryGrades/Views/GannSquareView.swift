@@ -108,7 +108,7 @@ struct GannCard: View {
         VStack(spacing: 4) {
             Text(title).font(.caption2).foregroundColor(.gray)
             Text(value)
-                .font(.system(.caption, weight: .bold, design: .monospaced))
+                .font(.system(size: 12, weight: .bold, design: .monospaced))
                 .foregroundColor(color).minimumScaleFactor(0.5).lineLimit(1)
         }
         .frame(maxWidth: .infinity).padding(8)
@@ -289,7 +289,7 @@ struct GannControls: View {
                     Text("CENTRO").font(.caption2).foregroundColor(.gray).tracking(1)
                     TextField("ej. 1", text: $centerText)
                         .keyboardType(.decimalPad)
-                        .font(.system(.subheadline, weight: .bold, design: .monospaced))
+                        .font(.system(size: 15, weight: .bold, design: .monospaced))
                         .foregroundColor(.yellow).padding(8)
                         .background(RoundedRectangle(cornerRadius: 10)
                             .fill(Color.white.opacity(0.08)))

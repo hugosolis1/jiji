@@ -177,7 +177,7 @@ struct DegreeFinderControls: View {
                         .font(.caption2).foregroundColor(.gray).tracking(1)
                     TextField("ej. 111", text: $targetDegree)
                         .keyboardType(.numberPad)
-                        .font(.system(.title2, weight: .bold, design: .monospaced))
+                        .font(.system(size: 20, weight: .bold, design: .monospaced))
                         .foregroundColor(.yellow)
                         .padding(10)
                         .background(

@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B001 /* PlanetaryGradesApp.swift in Sources */      = {isa = PBXBuildFile; fileRef = A001; };
+		B002 /* ContentView.swift in Sources */             = {isa = PBXBuildFile; fileRef = A002; };
+		B003 /* AstronomicalEngine.swift in Sources */      = {isa = PBXBuildFile; fileRef = A003; };
+		B004 /* AstroViewModel.swift in Sources */          = {isa = PBXBuildFile; fileRef = A004; };
+		B005 /* LocationSettingsView.swift in Sources */    = {isa = PBXBuildFile; fileRef = A005; };
+		B006 /* Assets.xcassets in Resources */             = {isa = PBXBuildFile; fileRef = A006; };
+		B007 /* PlanetDetailView.swift in Sources */        = {isa = PBXBuildFile; fileRef = A008; };
+		B008 /* DegreeFinderView.swift in Sources */        = {isa = PBXBuildFile; fileRef = A009; };
+		B009 /* GannSquareView.swift in Sources */          = {isa = PBXBuildFile; fileRef = A010; };
+		B010 /* ZodiacWheelView.swift in Sources */         = {isa = PBXBuildFile; fileRef = A011; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A000 /* PlanetaryGrades.app */        = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanetaryGrades.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A001 /* PlanetaryGradesApp.swift */   = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetaryGradesApp.swift; sourceTree = "<group>"; };
+		A002 /* ContentView.swift */          = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A003 /* AstronomicalEngine.swift */   = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomicalEngine.swift; sourceTree = "<group>"; };
+		A004 /* AstroViewModel.swift */       = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroViewModel.swift; sourceTree = "<group>"; };
+		A005 /* LocationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSettingsView.swift; sourceTree = "<group>"; };
+		A006 /* Assets.xcassets */            = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A007 /* Info.plist */                 = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A008 /* PlanetDetailView.swift */     = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailView.swift; sourceTree = "<group>"; };
+		A009 /* DegreeFinderView.swift */     = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DegreeFinderView.swift; sourceTree = "<group>"; };
+		A010 /* GannSquareView.swift */       = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GannSquareView.swift; sourceTree = "<group>"; };
+		A011 /* ZodiacWheelView.swift */      = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacWheelView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA00 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ROOT = {
+			isa = PBXGroup;
+			children = (
+				APPGRP,
+				PRDGRP,
+			);
+			sourceTree = "<group>";
+		};
+		PRDGRP = {
+			isa = PBXGroup;
+			children = (
+				A000,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		APPGRP = {
+			isa = PBXGroup;
+			children = (
+				A001,
+				A007,
+				A006,
+				VIEWSGRP,
+				MODELSGRP,
+				ENGINEGRP,
+			);
+			path = PlanetaryGrades;
+			sourceTree = "<group>";
+		};
+		VIEWSGRP = {
+			isa = PBXGroup;
+			children = (
+				A002,
+				A005,
+				A008,
+				A009,
+				A010,
+				A011,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		MODELSGRP = {
+			isa = PBXGroup;
+			children = (
+				A004,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ENGINEGRP = {
+			isa = PBXGroup;
+			children = (
+				A003,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		TARGET1 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFGLIST1;
+			buildPhases = (
+				SRC00,
+				FA00,
+				RES00,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = PlanetaryGrades;
+			productName = PlanetaryGrades;
+			productReference = A000;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PROJECT = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					TARGET1 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = CFGLIST0;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ROOT;
+			productRefGroup = PRDGRP;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				TARGET1,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		RES00 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B006,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		SRC00 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B001,
+				B002,
+				B003,
+				B004,
+				B005,
+				B007,
+				B008,
+				B009,
+				B010,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CFG_DEBUG_PROJ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFG_RELEASE_PROJ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFG_DEBUG_TARGET = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PlanetaryGrades/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.astrocalc.planetarygrades;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFG_RELEASE_TARGET = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PlanetaryGrades/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.astrocalc.planetarygrades;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFGLIST0 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFG_DEBUG_PROJ,
+				CFG_RELEASE_PROJ,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFGLIST1 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFG_DEBUG_TARGET,
+				CFG_RELEASE_TARGET,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = PROJECT;
+}
